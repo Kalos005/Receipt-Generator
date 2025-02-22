@@ -21,10 +21,10 @@ class SendNormal:
         message['To'] = self.receiver_email
 
 
-        smtp_server = ""
+        smtp_server = "ebonyjadehealth.com"
         smtp_port = 587
-        smtp_username = ""
-        smtp_password = ""
+        smtp_username = "mail@ebonyjadehealth.com"
+        smtp_password = "bk7bm%v#8VKR!"
 
         with smtplib.SMTP(smtp_server, smtp_port) as server:
             server.starttls()
